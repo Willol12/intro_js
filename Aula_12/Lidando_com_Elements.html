@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aula 12 javascript</title>
+  
+  </head>
+<body>
+  <div id="app">
+    <input id="nome"/>
+  
+</div>
+
+<script>
+  var linkElement = document.createElement('a');
+  linkElement.setAttribute('href','https://www.google.com.br/');
+  linkElement.setAttribute('title','Site do google');
+
+  
+  var textElement = document.createTextNode('Acessar google');
+  linkElement.appendChild(textElement);
+
+  var containerElement = document.querySelector('#app');
+  containerElement.appendChild(linkElement);
+
+var inputElement = document.querySelector('#nome');
+containerElement.removeChild(inputElement);
+</script>
+</body>
+
+</html>

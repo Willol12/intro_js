@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Aula 6 javascript</title>
+    <body>
+      <script>
+        //function retornaSexo(sexo) {
+          //if (sexo =='M') 
+          //contatenação de if else 
+          /*if (sexo === 'M') {
+        return 'Masculino';
+
+        }else if (sexo ==='F') {
+          return 'Feminino';
+        }else{
+          return 'Outro';
+        }
+        }
+        var resultado = retornaSexo('F');
+        console.log(resultado);
+        */
+        //no javascript o = é atribuição
+        //O == Ele checa se os valores são iguais
+        //Exemplo if (1 == "1") true pois apesar de um ser integer e o outro ser string os dois são 1
+        //Porém o tipo delas são diferentes
+        //O === Ele além de veirificar o valor das variaveis vai veirificar tambem o tipo delas são iguais
+        
+        //Nesse caso é utilizando switch case que é outra alternativa de decisão
+        function retornaSexo (sexo) {
+        switch (sexo) {
+          case 'M':
+          return 'Masculino';
+          case 'F':
+          return 'Feminimo';
+          default:
+          return 'Outro';
+
+        }
+        }
+        var resultado = retornaSexo ('Fad');
+        console.log(resultado);
+      </script>
+    </body>
+  </head>
+</html>

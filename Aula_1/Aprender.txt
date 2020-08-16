@@ -1,0 +1,8 @@
+Aprender:
+-Váriaveis
+-Funções 
+-Condicionais
+-Estruturas de repetição
+-Manipulação de DOM
+-Requisição assíncronas
+-Contruindo um app do zero
